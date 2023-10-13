@@ -1,0 +1,65 @@
+/* ExperiencePage.css */
+
+.experience-page {
+  text-align: center;
+  padding-top: 5rem; 
+  padding-bottom: 5rem;
+}
+
+.experience-title {
+  margin-bottom: 5rem; 
+  color: #564e58; 
+}
+
+.vertical-timeline-element-title {
+  font-size: 24px; 
+  font-weight: bold;
+  color: #564e58; 
+  margin-bottom: 0.5rem; 
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 18px; 
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  color: #564e58; 
+}
+
+.vertical-timeline-element-content {
+  background-color: #376996; 
+  color: #564e58;
+  text-align: start;
+}
+
+.vertical-timeline-element-content:before {
+  border-right: 7px solid #564e58; 
+  color: #564e58; 
+}
+
+.vertical-timeline-element-date {
+  font-weight: bold;
+  font-size: 16px;
+  color: #564e58; 
+}
+
+.vertical-timeline-element-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 1rem;
+  color: #564e58; 
+}
+
+
+.vertical-timeline-element--left-aligned {
+  text-align: end;
+}
+
+.vertical-timeline-element--right-aligned {
+  text-align: start;
+}
+
+.vertical-timeline-element-description,
+.vertical-timeline-element-subtitle {
+  color: #564e58;
+}
