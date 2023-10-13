@@ -30,15 +30,16 @@ export default function CustomNavBar() {
 							to="about-me-section"
 							smooth={true}
 							duration={100}
-							style={{ ...menuStyle, marginRight: "10px" }}
+							style={{ ...menuStyle, marginRight: "10px", cursor: "pointer" }}
 						>
 							About
 						</ScrollLink>
+
 						<ScrollLink
 							to="experience-section"
 							smooth={true}
 							duration={100}
-							style={{ ...menuStyle, marginRight: "10px" }}
+							style={{ ...menuStyle, marginRight: "10px", cursor: "pointer" }}
 						>
 							My Experiences
 						</ScrollLink>
@@ -46,7 +47,7 @@ export default function CustomNavBar() {
 							to="project-section"
 							smooth={true}
 							duration={100}
-							style={{ ...menuStyle, marginRight: "10px" }}
+							style={{ ...menuStyle, marginRight: "10px", cursor: "pointer" }}
 						>
 							My Projects
 						</ScrollLink>
@@ -54,7 +55,7 @@ export default function CustomNavBar() {
 							to="skill-section"
 							smooth={true}
 							duration={100}
-							style={{ ...menuStyle, marginRight: "10px" }}
+							style={{ ...menuStyle, marginRight: "10px", cursor: "pointer" }}
 						>
 							My Skills
 						</ScrollLink>
