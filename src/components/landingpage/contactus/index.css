@@ -1,5 +1,6 @@
+
 .form-container {
-  background-image: url("/Users/robintran/Documents/qu…/react-port/src/assets/images/background.jpg");
+  background-image: url(/src/assets/images/background.jpg);
 }
 
 .contact-header {
